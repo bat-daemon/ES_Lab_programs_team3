@@ -1,16 +1,8 @@
 # EMBEDDED_03 - Embedded Systems Lab (Team 3)
 
 Lab programs for the Embedded Systems course, written in C for the
-**STM32 NUCLEO-F446RE** (STM32F446RE, Cortex-M4). All programs use the sir provided
-bare-metal peripheral drivers instead of HAL.
-
-## Team
-
-| # | Name | USN |
-|---|------|-----|
-| 1 | Yashwin K Shetty | 261100620007 |
-| 2 | Varsha R Shriyan | 261100620008 |
-| 3 | Swaroop Aradhya N M | 261100620009 |
+**STM32 NUCLEO-F446RE** (STM32F446RE, Cortex-M4). All programs use the
+instructor-provided bare-metal peripheral drivers instead of HAL.
 
 ## Repository structure
 
@@ -27,12 +19,12 @@ EMBEDDED_03/
     ├── SORT_SEARCH_SERIES/
     ├── SPI_SPIINT/
     └── UART_UARTINT/
-        ├── 261100620007_Yashwin_K_Shetty/
-        ├── 261100620008_Varsha_R_Shriyan/
-        └── 261100620009_Swaroop_Aradhya_N_M/
+        ├── member_1/
+        ├── member_2/
+        └── member_3/
 ```
 
-The same three student folders exist inside every lab folder.
+The same three member folders exist inside every lab folder.
 
 ## Labs
 
@@ -77,7 +69,7 @@ needs to include that one file first.
 
 1. Create a project for the STM32F446RE in your IDE.
 2. Copy the driver `.h` files into `Inc/` and the `.c` files into `Src/`.
-3. Copy the lab's `main.c` from the required student folder into `Src/`.
+3. Copy the lab's `main.c` from the required member folder into `Src/`.
 4. Build, flash, and open a serial terminal at 115200 baud where the lab
    prints over UART.
 
